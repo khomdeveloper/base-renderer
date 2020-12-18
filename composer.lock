@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51a829e3d1779f27c9008c5403618dd5",
+    "content-hash": "8182e05ee313f4de21e68e56c739713f",
     "packages": [
         {
             "name": "valera261104/base-class",
-            "version": "v1.2",
+            "version": "v1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/khomdeveloper/base-class.git",
-                "reference": "8d1117cdf811b0b2be9a40e50afa45aa5233a7a6"
+                "reference": "aa04f0b8cf9c633946bffe952c3eec5354113df4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khomdeveloper/base-class/zipball/8d1117cdf811b0b2be9a40e50afa45aa5233a7a6",
-                "reference": "8d1117cdf811b0b2be9a40e50afa45aa5233a7a6",
+                "url": "https://api.github.com/repos/khomdeveloper/base-class/zipball/aa04f0b8cf9c633946bffe952c3eec5354113df4",
+                "reference": "aa04f0b8cf9c633946bffe952c3eec5354113df4",
                 "shasum": ""
             },
             "require-dev": {
@@ -25,10 +25,9 @@
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "Services/",
-                    "Tests/"
-                ]
+                "psr-4": {
+                    "BaseClass\\": "Source"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -41,24 +40,24 @@
                 }
             ],
             "description": "Base Class",
-            "time": "2020-12-17T19:41:08+00:00"
+            "time": "2020-12-18T12:29:41+00:00"
         },
         {
             "name": "valera261104/extended-exception",
-            "version": "v1.3",
+            "version": "v1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/khomdeveloper/extended-exception.git",
-                "reference": "a34de7a80886837190400ac0421d0c6775c065dc"
+                "reference": "3bdcbaefa00dd1be1a62a9046bafd06b9eb63057"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khomdeveloper/extended-exception/zipball/a34de7a80886837190400ac0421d0c6775c065dc",
-                "reference": "a34de7a80886837190400ac0421d0c6775c065dc",
+                "url": "https://api.github.com/repos/khomdeveloper/extended-exception/zipball/3bdcbaefa00dd1be1a62a9046bafd06b9eb63057",
+                "reference": "3bdcbaefa00dd1be1a62a9046bafd06b9eb63057",
                 "shasum": ""
             },
             "require": {
-                "valera261104/base-class": "^1"
+                "valera261104/base-class": "1.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9"
@@ -80,7 +79,7 @@
                 }
             ],
             "description": "Extended exception with logging and translation",
-            "time": "2020-12-18T08:23:22+00:00"
+            "time": "2020-12-18T12:47:53+00:00"
         }
     ],
     "packages-dev": [

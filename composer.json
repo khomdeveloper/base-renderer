@@ -11,8 +11,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "valera261104/base-class" : ">=1.2",
-        "valera261104/extended-exception" : ">=1.3"
+        "valera261104/base-class" : ">=1.4",
+        "valera261104/extended-exception" : ">=1.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9"

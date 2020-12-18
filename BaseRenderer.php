@@ -4,9 +4,9 @@ namespace BaseRenderer;
 
 use ExtendedException\ArrayExpected;
 use ExtendedException\StringExpected;
-use valera261104\BaseClass\Services\DataTypeService;
-use valera261104\BaseClass\Services\PathService;
-use valera261104\BaseClass\Services\StaticStringService;
+use BaseClass\DataTypeService;
+use BaseClass\PathService;
+use BaseClass\StaticStringService;
 
 
 class BaseRenderer
