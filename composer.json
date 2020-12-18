@@ -19,10 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BaseRenderer\\": ""
-        },
-        "classmap": [
-            "Exceptions/"
-        ]
+            "BaseRenderer\\": "Source"
+        }
     }
 }
