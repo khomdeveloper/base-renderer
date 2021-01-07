@@ -50,7 +50,7 @@ class BaseRenderer
             ]);
         }
 
-        if (DataTypeService::isNumericArray($data)) {
+        if (!empty($data) && DataTypeService::isNumericArray($data)) {
             $a = [];
             foreach ($data as $value) {
                 $a[] = $this->render([
